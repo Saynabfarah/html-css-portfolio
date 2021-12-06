@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -53,8 +54,10 @@
     box-shadow: 0px 0px 15px 2px;
 }
 
+/* added padding and color to all P elements */
 p {
     padding: 30px;
+    color: rgb(56, 68, 80);
 }
 
 .project-image {
@@ -89,6 +92,7 @@ footer h6 {
     padding-bottom: 30px;
 }
 
+/* Added specific styling inside the header element when the browser window is 585px wide or less: */
 @media screen and (max-width: 585px) {
     .nav {
         flex-direction: column;
